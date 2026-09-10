@@ -8,18 +8,10 @@ export default function Home() {
         </a>
 
         <div className="flex gap-6 text-sm text-slate-300">
-          <a href="#about" className="hover:text-sky-400">
-            About
-          </a>
-          <a href="#projects" className="hover:text-sky-400">
-            Projects
-          </a>
-          <a href="#skills" className="hover:text-sky-400">
-            Skills
-          </a>
-          <a href="#contact" className="hover:text-sky-400">
-            Contact
-          </a>
+          <a href="#about" className="hover:text-sky-400">About</a>
+          <a href="#projects" className="hover:text-sky-400">Projects</a>
+          <a href="#skills" className="hover:text-sky-400">Skills</a>
+          <a href="#contact" className="hover:text-sky-400">Contact</a>
         </div>
       </nav>
 
@@ -44,7 +36,7 @@ export default function Home() {
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
             MSc Artificial Intelligence with Business Strategy graduate from
             Aston University, with hands-on experience in machine learning,
-            generative AI, RAG, data analysis and NLP.
+            Generative AI, RAG, data analysis and NLP.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
@@ -90,15 +82,14 @@ export default function Home() {
           <p>
             I&apos;m an MSc Artificial Intelligence with Business Strategy
             graduate from Aston University with an interest in building
-            practical machine learning, generative AI and data-driven
-            applications.
+            practical machine learning and AI applications.
           </p>
 
           <p>
-            I have hands-on experience across the machine learning lifecycle,
-            including data preparation, exploratory data analysis, model
-            training, evaluation, retrieval-augmented generation and deploying
-            interactive AI applications.
+            I have hands-on experience across machine learning and Generative AI
+            workflows, including data preparation, exploratory data analysis,
+            model training, evaluation, embeddings, semantic retrieval and
+            deploying interactive AI applications.
           </p>
         </div>
       </section>
@@ -113,7 +104,7 @@ export default function Home() {
           Technologies I work with.
         </h2>
 
-        <div className="mt-10 flex max-w-4xl flex-wrap gap-3">
+        <div className="mt-10 flex max-w-5xl flex-wrap gap-3">
           {[
             "Python",
             "SQL",
@@ -121,6 +112,7 @@ export default function Home() {
             "Generative AI",
             "RAG",
             "LLMs",
+            "Prompt Engineering",
             "LangChain",
             "ChromaDB",
             "OpenAI API",
@@ -132,6 +124,8 @@ export default function Home() {
             "NLP",
             "Streamlit",
             "TensorFlow",
+            "Deep Learning",
+            "Neural Networks",
             "Git",
             "GitHub",
           ].map((skill) => (
@@ -156,6 +150,7 @@ export default function Home() {
         </h2>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
+
           {/* AI Banking Knowledge Assistant */}
           <article className="rounded-2xl border border-slate-800 bg-slate-900/50 p-7 transition hover:-translate-y-1 hover:border-sky-400/50">
             <p className="text-sm font-medium text-indigo-400">
@@ -168,13 +163,14 @@ export default function Home() {
 
             <p className="mt-4 leading-7 text-slate-400">
               Retrieval-Augmented Generation application that answers banking
-              questions using FCA source material. Built with OpenAI embeddings,
-              ChromaDB semantic retrieval, relevance filtering and an LLM to
-              generate grounded answers with source and page attribution.
+              questions using FCA source material. Built a document ingestion
+              and retrieval pipeline with OpenAI embeddings, LangChain,
+              ChromaDB semantic retrieval and relevance filtering to generate
+              grounded LLM responses with source and page attribution.
             </p>
 
             <p className="mt-5 text-sm text-slate-500">
-              Python • RAG • LLM • LangChain • ChromaDB • OpenAI • Streamlit
+              Python • RAG • LLMs • LangChain • ChromaDB • OpenAI • Streamlit
             </p>
 
             <div className="mt-7 flex gap-5">
@@ -301,6 +297,7 @@ export default function Home() {
               Python • NLP • Rasa
             </p>
           </article>
+
         </div>
       </section>
 
@@ -316,9 +313,7 @@ export default function Home() {
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-7">
-            <p className="text-sm font-medium text-sky-400">
-              EXPERIENCE
-            </p>
+            <p className="text-sm font-medium text-sky-400">EXPERIENCE</p>
 
             <h3 className="mt-3 text-xl font-bold">
               Data Science Intern
@@ -340,9 +335,7 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-7">
-            <p className="text-sm font-medium text-indigo-400">
-              EDUCATION
-            </p>
+            <p className="text-sm font-medium text-indigo-400">EDUCATION</p>
 
             <h3 className="mt-3 text-xl font-bold">
               MSc Artificial Intelligence with Business Strategy
